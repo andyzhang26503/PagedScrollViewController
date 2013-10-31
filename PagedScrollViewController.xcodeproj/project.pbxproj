@@ -14,7 +14,7 @@
 		505AA8971821056700EE4913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 505AA8961821056700EE4913 /* main.m */; };
 		505AA89B1821056700EE4913 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 505AA89A1821056700EE4913 /* SPAppDelegate.m */; };
 		505AA89E1821056700EE4913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 505AA89C1821056700EE4913 /* Main.storyboard */; };
-		505AA8A11821056700EE4913 /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505AA8A01821056700EE4913 /* SPViewController.m */; };
+		505AA8A11821056700EE4913 /* SPPagedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505AA8A01821056700EE4913 /* SPPagedScrollViewController.m */; };
 		505AA8A31821056800EE4913 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 505AA8A21821056700EE4913 /* Images.xcassets */; };
 		505AA8AA1821056800EE4913 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AA8A91821056800EE4913 /* XCTest.framework */; };
 		505AA8AB1821056800EE4913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AA88A1821056700EE4913 /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		505AA8991821056700EE4913 /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
 		505AA89A1821056700EE4913 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
 		505AA89D1821056700EE4913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		505AA89F1821056700EE4913 /* SPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
-		505AA8A01821056700EE4913 /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
+		505AA89F1821056700EE4913 /* SPPagedScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPPagedScrollViewController.h; sourceTree = "<group>"; };
+		505AA8A01821056700EE4913 /* SPPagedScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPPagedScrollViewController.m; sourceTree = "<group>"; };
 		505AA8A21821056700EE4913 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		505AA8A81821056800EE4913 /* PagedScrollViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagedScrollViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		505AA8A91821056800EE4913 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				505AA8991821056700EE4913 /* SPAppDelegate.h */,
 				505AA89A1821056700EE4913 /* SPAppDelegate.m */,
 				505AA89C1821056700EE4913 /* Main.storyboard */,
-				505AA89F1821056700EE4913 /* SPViewController.h */,
-				505AA8A01821056700EE4913 /* SPViewController.m */,
+				505AA89F1821056700EE4913 /* SPPagedScrollViewController.h */,
+				505AA8A01821056700EE4913 /* SPPagedScrollViewController.m */,
 				505AA8A21821056700EE4913 /* Images.xcassets */,
 				505AA8911821056700EE4913 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				505AA8971821056700EE4913 /* main.m in Sources */,
-				505AA8A11821056700EE4913 /* SPViewController.m in Sources */,
+				505AA8A11821056700EE4913 /* SPPagedScrollViewController.m in Sources */,
 				505AA89B1821056700EE4913 /* SPAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +461,7 @@
 				505AA8BB1821056800EE4913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		505AA8BC1821056800EE4913 /* Build configuration list for PBXNativeTarget "PagedScrollViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				505AA8BE1821056800EE4913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
