@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500C6E501822225500FFD72E /* SPPagedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 500C6E4F1822225500FFD72E /* SPPagedScrollView.m */; };
+		500C6E541822241200FFD72E /* SPPagedScroll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 500C6E531822241200FFD72E /* SPPagedScroll.xib */; };
+		500C6E571822255000FFD72E /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 500C6E561822255000FFD72E /* SPViewController.m */; };
 		505AA88B1821056700EE4913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AA88A1821056700EE4913 /* Foundation.framework */; };
 		505AA88D1821056700EE4913 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AA88C1821056700EE4913 /* CoreGraphics.framework */; };
 		505AA88F1821056700EE4913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505AA88E1821056700EE4913 /* UIKit.framework */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		500C6E4E1822225500FFD72E /* SPPagedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPagedScrollView.h; sourceTree = "<group>"; };
+		500C6E4F1822225500FFD72E /* SPPagedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPagedScrollView.m; sourceTree = "<group>"; };
+		500C6E531822241200FFD72E /* SPPagedScroll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPPagedScroll.xib; sourceTree = "<group>"; };
+		500C6E551822255000FFD72E /* SPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
+		500C6E561822255000FFD72E /* SPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
 		505AA8871821056700EE4913 /* PagedScrollViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagedScrollViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505AA88A1821056700EE4913 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		505AA88C1821056700EE4913 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +125,11 @@
 				505AA89C1821056700EE4913 /* Main.storyboard */,
 				505AA89F1821056700EE4913 /* SPPagedScrollViewController.h */,
 				505AA8A01821056700EE4913 /* SPPagedScrollViewController.m */,
+				500C6E4E1822225500FFD72E /* SPPagedScrollView.h */,
+				500C6E4F1822225500FFD72E /* SPPagedScrollView.m */,
+				500C6E531822241200FFD72E /* SPPagedScroll.xib */,
+				500C6E551822255000FFD72E /* SPViewController.h */,
+				500C6E561822255000FFD72E /* SPViewController.m */,
 				505AA8A21821056700EE4913 /* Images.xcassets */,
 				505AA8911821056700EE4913 /* Supporting Files */,
 			);
@@ -230,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				505AA8A31821056800EE4913 /* Images.xcassets in Resources */,
+				500C6E541822241200FFD72E /* SPPagedScroll.xib in Resources */,
 				505AA8951821056700EE4913 /* InfoPlist.strings in Resources */,
 				505AA89E1821056700EE4913 /* Main.storyboard in Resources */,
 			);
@@ -250,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				500C6E501822225500FFD72E /* SPPagedScrollView.m in Sources */,
 				505AA8971821056700EE4913 /* main.m in Sources */,
 				505AA8A11821056700EE4913 /* SPPagedScrollViewController.m in Sources */,
+				500C6E571822255000FFD72E /* SPViewController.m in Sources */,
 				505AA89B1821056700EE4913 /* SPAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
